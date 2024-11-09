@@ -8,52 +8,33 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-
-    
-    <script>
-        function toggleMenu() {
-            const toggleButton = document.getElementsByClassName('toggle-button')[0];
-
-const navbarLinks = document.getElementsByClassName('navbar-links')[0];
-
-toggleButton.addEventListener('click', () => {
-navbarLinks.classList.toggle('active')
-
-})
-        }
-        
-    </script>
+<script src="script.js"></script>
       
       
     <link href="img/https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
- 
-    <header>
-       
+    <header >
         <nav class="navbar">
-          <img src="img/logo.png" class="logo" >
-          
-          
-          <a href="#" class="toggle-button" onclick="toggleMenu()">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-          </a>
-          <div class="navbar-links">
-            <ul>
-                <li><a href="#home">HOME</a></li>
-              <li><a href="#about">ABOUT</a></li>
-              <li><a href="#layanan">LAYANAN</a></li>
-              <li><a href="#produk">PRODUK</a></li>
-              <li><a href="#contact">CONTACT</a></li>
-            </ul>
-          </div>
-       </nav>
-      </header>
+            <img src="img/logo.png" class="logo">
+            <span class="toggle-button" onclick="toggleMenu()">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </span>
+            <div class="navbar-links" id="navLinks">
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#layanan">LAYANAN</a></li>
+                    <li><a href="#produk">PRODUK</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    
     
 
 
@@ -68,29 +49,33 @@ navbarLinks.classList.toggle('active')
             </div>
             <img src="img/8c02f60517af34faedaf8b51a9942346-removebg-preview.png" alt="Placeholder Image" class="welcome-img">
         </div>
-        <div class="wave-container" id="about" >
+    </section>
+        <div class="wave-container"  >
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
                 <path fill="#f89e8e" fill-opacity="1"
                     d="M0,32L20,26.7C40,21,80,11,120,32C160,53,200,107,240,122.7C280,139,320,117,360,138.7C400,160,440,224,480,250.7C520,277,560,267,600,224C640,181,680,107,720,69.3C760,32,800,32,840,48C880,64,920,96,960,101.3C1000,107,1040,85,1080,64C1120,43,1160,21,1200,53.3C1240,85,1280,171,1320,181.3C1360,192,1400,128,1420,96L1440,64L1440,320L1420,320C1400,320,1360,320,1320,320C1280,320,1240,320,1200,320C1160,320,1120,320,1080,320C1040,320,1000,320,960,320C920,320,880,320,840,320C800,320,760,320,720,320C680,320,640,320,600,320C560,320,520,320,480,320C440,320,400,320,360,320C320,320,280,320,240,320C200,320,160,320,120,320C80,320,40,320,20,320L0,320Z">
                 </path>
             </svg>
            
-    </section >
+        </div>
 
-    <section >
+    <section id="about">
         <div class="about-container">
           <div  class="about-pic-container">
             <div class="horizontal-line"  id="selengkapnya"></div>
         <img  src="img/WhatsApp Image 2024-05-02 at 13.04.31_bfdbcc18.jpg" class="profile_pic">
           </div>
         <div class="about-text-container">
-          <div class="tag">TENTANG KAMI</div>
-          <article class="about-text"> <p>Ayam Potong Bagus Tegal, tempat terbaik untuk mendapatkan ayam potong segar dan berkualitas. Kami berkomitmen untuk menyediakan ayam potong yang diperoleh langsung dari kandang, memastikan kesegaran dan kualitas terbaik untuk setiap pelanggan. Dengan layanan pemotongan langsung yang dilakukan oleh tenaga ahli kami, Anda dapat menikmati ayam yang tidak hanya segar, tetapi juga terjamin kebersihannya.</p>
-    <p>
-        Terletak di pasar pagi Tegal, tepat di depan swalayan, kami memudahkan Anda untuk mendapatkan ayam potong dengan cepat dan praktis. Selain itu, kami juga menawarkan layanan delivery untuk memenuhi kebutuhan Anda, sehingga Anda bisa mendapatkan ayam potong berkualitas tanpa harus keluar rumah.</p><p>
+          <h2>TENTANG KAMI</h2>
+           <p>Ayam Potong Bagus Tegal, tempat terbaik untuk mendapatkan ayam potong segar dan berkualitas. Kami berkomitmen untuk menyediakan ayam potong yang diperoleh langsung dari kandang, memastikan kesegaran dan kualitas terbaik untuk setiap pelanggan. Dengan layanan pemotongan langsung yang dilakukan oleh tenaga ahli kami, Anda dapat menikmati ayam yang tidak hanya segar, tetapi juga terjamin kebersihannya.</p>
+    <br>
+           <p>
+        Terletak di pasar pagi Tegal, tepat di depan swalayan, kami memudahkan Anda untuk mendapatkan ayam potong dengan cepat dan praktis. Selain itu, kami juga menawarkan layanan delivery untuk memenuhi kebutuhan Anda, sehingga Anda bisa mendapatkan ayam potong berkualitas tanpa harus keluar rumah.</p>
+    <br>
+        <p>
             Di Ayam Potong Bagus Tegal, kepuasan pelanggan adalah prioritas utama kami. Kami siap melayani dengan ramah dan profesional, serta memberikan pengalaman berbelanja yang menyenangkan.<b> Bergabunglah dengan kami dan nikmati ayam potong segar yang siap menyempurnakan hidangan Anda! </b> </p>
      
-          </article>
+          </p
             </div>
           </div>
       </section>
@@ -301,10 +286,12 @@ navbarLinks.classList.toggle('active')
                                 <span>Follow us</span>
                                 
                                 <a href="https://www.instagram.com/bagusboilers.tgl/"><i class="fab fa-instagram"></i></a>
+                                
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                    <br>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
                         <div class="footer-widget">
                             <div class="footer-widget-heading">
                                 <h3>Useful Links</h3>
@@ -319,6 +306,7 @@ navbarLinks.classList.toggle('active')
                             </ul>
                         </div>
                     </div>
+                    <br>
                     <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
                         <div class="footer-widget">
                             <div class="footer-widget-heading">
@@ -347,19 +335,10 @@ navbarLinks.classList.toggle('active')
             <div class="row">
                 <div class="col-xl-6 col-lg-6 text-center text-lg-left">
                     <div class="copyright-text">
-                        <p>Copyright &copy; 2018, All Right Reserved</p>
+                        <p>Copyright &copy; 2024, All Right Reserved</p>
                     </div>
                 </div>
-                <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-                    <div class="footer-menu">
-                        <ul>
-                            <li><a href="#home">Home</a></li>
-                            <li><a href="#about">About us</a></li>
-                            <li><a href="#layanan">Layanan</a></li>
-                            <li><a href="#produk">Produk</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                        </ul>
-                    </div>
+               
                 </div>
             </div>
         </div>
