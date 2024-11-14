@@ -7,6 +7,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Times New Roman', Times, serif;
+  display: flexbox;
 }
 
 .navbar {
@@ -209,37 +210,12 @@ body {
   margin-top: 3rem;
 }
 
-#about blockquote {
-  font-size: 2rem;
-  width: 700px;
-  font-family: Georgia, "Times New Roman", Serif;
-  font-weight: 500;
-  quotes: "\201C" "\201D" "\2018" "\2019";
-  margin-left: 0;
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-blockquote:before {
-    content: open-quote;
-}
-
-blockquote:after {
-    content: close-quote;
-}
 
 .about-text {
   max-width: 600px;
   text-align: justify;
   font-weight: 300;
 }
-
-
-blockquote.medium_layout {
-  display:none;
-}
-
-
 
 .services {
   display: flex;
@@ -699,14 +675,8 @@ blockquote.medium_layout {
   
   
   @media (max-width: 480px) {
-    body {
-      padding: 0;
-      margin: 0;
-      font-family: 'Times New Roman', Times, serif;
-      
-      
-      
-    }
+
+    
  
     .toggle-button {
       display: flex;
