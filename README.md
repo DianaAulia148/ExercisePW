@@ -5,4 +5,4 @@ Semester/Kelas: 3/D
 Mata Kuliah: Pemrograman Web 1
 
 link Vercel : https://exercise-utspw.vercel.app/
-link Github : https://github.com/DianaAulia148/ExerciseUTSPW
+link Youtube : https://youtu.be/7lcncrq-7aM?si=TiWQmT__ujD7KFQW
